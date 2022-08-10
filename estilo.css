@@ -24,12 +24,34 @@ h2 {
   width: 200px;
   height: 200px;
   right: 0;
-  top: 0;
+  top: 200px;
 }
 .menuprincipal {
   position: relative;
-  background: darkgreen;
+  background: #151112;
   width: 100%;
-  height: 120px;
+  height: 45px;
   top: 0;
+}
+nav ul {
+  list-style-type: none
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Gill Sans Extrabold, sans-serif;
+}
+li a:hover {
+  background: white;
+  color: black;
+  font-size: 30px;
 }
