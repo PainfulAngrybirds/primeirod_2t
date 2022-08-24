@@ -105,3 +105,8 @@ li a:hover {
   position: absolute;
   top: 45px;
 }
+
+.membros {
+  float: none;
+  font-size: 30px;
+}
